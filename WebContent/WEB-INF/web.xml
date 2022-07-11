@@ -28,6 +28,8 @@
 	</error-page>
 
 
+
+
 	<filter>
 		<filter-name>SignupFilter</filter-name>
 		<filter-class>com.filter.SignupFilter</filter-class>
@@ -36,10 +38,18 @@
 	<filter-mapping>
 		<filter-name>SignupFilter</filter-name>
 		<url-pattern>/SignupController</url-pattern>
-	<!-- <servlet-name>SignupController</servlet-name> -->
+		<!-- <servlet-name>SignupController</servlet-name> -->
 	</filter-mapping>
 
+	<filter>
+		<filter-name>DuplicateEmailCheckFilter</filter-name>
+		<filter-class>com.filter.DuplicateEmailCheckFilter</filter-class>
+	</filter>
 
+	<filter-mapping>
+		<filter-name>DuplicateEmailCheckFilter</filter-name>
+		<url-pattern>/SignupController</url-pattern>
+	</filter-mapping>
 
 
 

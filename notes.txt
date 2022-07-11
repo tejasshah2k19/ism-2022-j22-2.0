@@ -61,6 +61,21 @@ pre-process request
 3)  web.xml map / annotation* 
 
 
+Signup.jsp -> SignupFilter | SignupController  
+
+Singup.jsp -> SignupFilter | DuplicateEmailCheckFilter | SignupController 
+
+
+Singup.jsp
+
+validation 
+
+email duplicate 
+
+password strength 
+
+SignupController 
+
 
 
 

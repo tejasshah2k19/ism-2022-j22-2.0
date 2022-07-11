@@ -10,9 +10,9 @@
 
 	<form action="SignupController" method="post">
 		FirstName : <input type="text" name="firstName">${firstNameError }<br>
-		<br> Email : <input type="text" name="email"><br> <br>
-		Password : <input type="password" name="password"><br> <br>
-		<input type="submit" value="Signup" />
+		<br> Email : <input type="text" name="email">${emailError }<br>
+		<br> Password : <input type="password" name="password"><br>
+		<br> <input type="submit" value="Signup" />
 	</form>
 </body>
 </html>

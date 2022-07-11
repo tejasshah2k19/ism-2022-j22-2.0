@@ -30,7 +30,10 @@ public class SignupFilter implements Filter {
 			request.setAttribute("firstNameError", "Please Enter FirstName");
 		}
 		// email
-
+		if (email == null || email.trim().length() == 0) {
+			isError = true;
+			request.setAttribute("emailNameError", "Please Enter Email");
+		}
 		// password
 
 		// back
