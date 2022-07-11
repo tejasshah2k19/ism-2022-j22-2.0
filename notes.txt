@@ -76,6 +76,36 @@ password strength
 
 SignupController 
 
+---------------------------------------------
+
+listener --> listen --> events 
+
+request.setAttribute 
+request.removeAttribute 
+server start 
+server shutdown 
+sessionCreated 
+sessionDestroyed 
+
+1) class implements XXXXXListener  
+2) web.xml --> map 
+
+XXXSErverXXX 
+
+
+---------------------------------------------
+
+online 
+sessionCreate --> userCounter ++ 
+sessionDestroy --> userCounter -- 
+
+---------------------------------------------
+
+
+
+
+
+
 
 
 
