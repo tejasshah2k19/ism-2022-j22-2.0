@@ -1,0 +1,115 @@
+interface Servlet 
+abstract class GenericServlet 
+class HttpServlet 
+
+
+init - call 1 time 
+service - n time - request 
+destroy - 1 time - shutdown 
+
+
+service X 
+
+	doGet
+	doPost
+	doTrace
+	doHead
+	XXXXX
+	 
+1) load class 
+2) create instance 
+3) init 
+4) service 
+5) destroy 
+
+
+servlet container -- server -> web.xml 
+---------------------------------------------------------
+jsp -> java server pages / java servlet page 
+
+
+.jsp 
+
+1) translation :  .jsp --> .java 
+2) compilation :  .java --> .class 
+3) load class 
+4) init  : jspInit()  
+5) service : _jspService() 
+6) destroy : jspDestroy()
+
+
+jsp -> 9 implicit object 
+page
+pageontext
+out
+request
+response
+session
+application
+config
+
+exception
+---------------------------------------------------------------------------------------------
+
+filter 
+
+pre-process request 
+
+1)	class implements Filter 
+2)  override method 
+		init doFilter destroy 
+3)  web.xml map / annotation* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+	 
+	 
