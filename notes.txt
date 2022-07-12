@@ -33,9 +33,10 @@ jsp -> java server pages / java servlet page
 1) translation :  .jsp --> .java 
 2) compilation :  .java --> .class 
 3) load class 
-4) init  : jspInit()  
-5) service : _jspService() 
-6) destroy : jspDestroy()
+4) create instance 
+5) init  : jspInit()  
+6) service : _jspService() 
+7) destroy : jspDestroy()
 
 
 jsp -> 9 implicit object 
@@ -101,7 +102,14 @@ sessionDestroy --> userCounter --
 
 ---------------------------------------------
 
+request.getSession();
+request.getSession(true);//if session present return that session
+						 if not present create new and return 
+								 
+request.getSession(false);//null 
 
+---------------------------------------------
+cookie -- client side -- browser 
 
 
 

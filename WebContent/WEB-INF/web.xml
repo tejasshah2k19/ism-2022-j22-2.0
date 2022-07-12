@@ -76,4 +76,24 @@
     <servlet-name>ExtendSessionController</servlet-name>
     <url-pattern>/ExtendSessionController</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SaveCookieController</display-name>
+    <servlet-name>SaveCookieController</servlet-name>
+    <servlet-class>com.controller.SaveCookieController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SaveCookieController</servlet-name>
+    <url-pattern>/SaveCookieController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>PrintAllRequestHeaderController</display-name>
+    <servlet-name>PrintAllRequestHeaderController</servlet-name>
+    <servlet-class>com.controller.PrintAllRequestHeaderController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PrintAllRequestHeaderController</servlet-name>
+    <url-pattern>/PrintAllRequestHeaderController</url-pattern>
+  </servlet-mapping>
 </web-app>
