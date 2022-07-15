@@ -111,7 +111,37 @@ request.getSession(false);//null
 ---------------------------------------------
 cookie -- client side -- browser 
 
+----------------------------------------------
 
+real estate firm that
+lists property for sale. The following describes the
+organization:
+1) The firm has a number of sales offices in
+several states.
+2) Each sales office is assigned one or more
+employees. An employee must be assigned to
+only one sales office.
+3) For each sales office, there is always one
+employee assigned to manage that office. An
+employee may manage only one sales office to
+which he/she is assigned.
+4) The firm (sales office) lists property for sale.
+5) Each unit of property must be listed with one
+(and only one) of the sales offices. A sales
+office may have any number of properties
+listed, or may have no properties listed.
+6) Each unit of property has one or more
+owners. An owner may have one or more
+units of property.
+
+
+table : xyz 
+
+xyz_id	integer	pk
+fkbc	varchar	
+zjk	integer fk 
+
+------------------------------------------------------------
 
 
 
