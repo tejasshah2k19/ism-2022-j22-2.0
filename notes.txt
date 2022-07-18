@@ -155,10 +155,42 @@ jsp use - taglib
 4) xml tag 
 5) jstl function 
 
+1)
+take number from user and sign from user 
+ 
+
+num : 5 
+sign : * 
+type : upper ,lower , diamond 
 
 
+upper 
+*
+**
+***
+****
+*****
 
 
+lower
+*****
+****
+***
+**
+*
+
+
+diamond 
+
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+ * * * * 
+  * * *
+   * * 
+    *
 
 
 
