@@ -143,9 +143,17 @@ zjk	integer fk
 
 ------------------------------------------------------------
 
+download jstl.jar 
+copy jar into lib folder 
+link - build path 
 
+jsp use - taglib 
 
-
+1) core tag
+2) formatting tag
+3) sql tag 
+4) xml tag 
+5) jstl function 
 
 
 
