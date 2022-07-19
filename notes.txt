@@ -192,6 +192,90 @@ diamond
    * * 
     *
 
+------------------------------------------------------------------
+scope:-
+		page
+		request
+		session
+		application
+
+${msg} 
+${requestScope.msg}
+
+${sessionScope.msg}
+
+${cookie.firstName.value}
+
+${78 > 90}
+
+------------------------------------------------------------------
+ecom
+todo
+
+mygate 
+
+admin -> chairman -> 
+
+signup | chairman -> user add 
+
+user:- 
+firstNAme
+lastName
+email
+password
+gender 
+role[chairman,member] 
+contactNum 
+
+houseno 
+houseDetail:tower1 f2 
+houseDetail:f2
+userId [fk]  9 
+
+[1 user can be owner of more than 1 house ] 
+
+Login:-
+
+member 
+memberid 
+houseId [fk] 
+firstName
+contactNum
+age 
+gender 
+
+
+
+security:-
+secuId pk
+firstName
+ln
+contactnum
+
+
+instruction:-
+id
+name : mr natwarlal 
+type : househelper 
+description : XXXreasonXXX
+allow:boolean : true 
+houseId : houseNo[fk] f2
+time : 10am to 11 am  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
