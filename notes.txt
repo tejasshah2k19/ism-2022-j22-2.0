@@ -264,6 +264,82 @@ time : 10am to 11 am
 
 
 
+-----------------------------
+maven 
+
+-> apache 
+-> project management tool -> complete build lifecycle 
+
+build* -> jar / war 
+   clean 
+   compile   
+   build 
+   package  
+doc 
+dep*
+release
+
+
+
+pom.xml -> root dir
+project object model
+
+1)dep
+2)plugins 
+3)goals
+4)project version 
+ 
+
+build lifecycle:-
+
+	validate
+	compile
+	test 
+	package 
+	install 
+	deploy
+
+
+servlet-api
+jstl
+
+authorized.net -> 10->
+
+2 -? autho->2.6 
+
+
+
+1. local -- system--dev--system ?? 
+2. central*---company--
+3. remote--mvn repo
+
+ 
+xyz -> 500
+
+def -> 500? ->download?->local->
+
+
+link project -> dep --> 
+
+parent --> pom.xml 
+
+maven always link jar with your project --> link from local --> 
+
+it will never download independant jar and assign in project --> it always download jar and put in local repo then it link
+that local repo jar with project. 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
